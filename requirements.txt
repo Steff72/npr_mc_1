@@ -6,6 +6,7 @@ jupyter
 faiss-cpu
 tiktoken
 pandas
+matplotlib
 tqdm
 python-dotenv
 sentence-transformers
