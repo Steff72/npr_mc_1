@@ -1,4 +1,5 @@
 langchain
+langchain-experimental
 langchain-openai
 langchain-community
 pypdf
