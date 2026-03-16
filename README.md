@@ -105,7 +105,7 @@ The best FAISS index is saved to `data/faiss_index/`.
 
 ## Current Generator State
 
-The notebook keeps the `gpt-5-mini` generator with `k=8` as the working final generator chain for downstream qualitative analysis. In the saved generator model comparison output, `gpt-5.4` is reported as the highest-scoring model.
+The notebook keeps the `gpt-5-mini` generator with `k=8` as the working final generator chain for downstream qualitative analysis.
 
 Context-size comparison:
 
@@ -123,7 +123,7 @@ Generator model comparison with the best retriever and best `k`:
 | `gpt-5-mini` | `1.94` | `1.90` | `1.98` | `1.96` | `4.58s` | `$0.052982` |
 | `gpt-5-nano` | `1.82` | `1.78` | `1.88` | `1.81` | `4.31s` | `$0.009898` |
 
-The saved notebook output prints `gpt-5.4 achieved the highest generator score.` The downstream qualitative analysis still reuses the already-kept `gpt-5-mini`, `k=8` chain.
+The downstream qualitative analysis uses the already-kept `gpt-5-mini`, `k=8` chain.
 
 ## Qualitative Analysis
 
