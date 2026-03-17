@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation for Aviation Manuals
 
-This repository contains a notebook-first RAG project for question answering over four Edelweiss Air Airbus A340 manuals. The full workflow lives in [npr_mc_1.ipynb](/Users/stefanbinkert/Documents/FHNW_DS/NPR/NPR_MC_1/npr_mc_1/npr_mc_1.ipynb): document loading, section inference, chunking experiments, retrieval evaluation, generation evaluation, plotting, and qualitative error analysis.
+This repository contains a notebook-first RAG project for question answering over four Edelweiss Air Airbus A340 manuals. It includes document loading, section inference, chunking experiments, retrieval evaluation, generation evaluation, plotting, and qualitative error analysis.
 
 ## Warning
 
