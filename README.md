@@ -21,7 +21,18 @@ This is not a packaged application. The notebook is the project.
 
 ```text
 .
+|-- _quarto.yml
 |-- npr_mc_1.ipynb
+|-- npr_mc_1.pdf
+|-- pics/
+|   |-- data_diff.png
+|   |-- gen_metric.png
+|   |-- how_rag.png
+|   |-- pipeline.png
+|   |-- qual_results.png
+|   |-- retr_metric.png
+|   |-- retr_optim.png
+|   `-- why_rag.png
 |-- requirements.txt
 `-- README.md
 ```
@@ -34,6 +45,13 @@ Expected local folders that are used by the notebook but not committed here:
   - `faiss_index/` for the saved best vector index
 - `task/`
   - course material PDFs referenced in the write-up
+
+Repository assets committed here:
+
+- `pics/`
+  - exported figures used in the report/presentation material
+- `_quarto.yml`
+  - Quarto configuration for rendering the report output
 
 ## Workflow
 
