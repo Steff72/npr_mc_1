@@ -5,3 +5,6 @@ __pycache__/
 .ipynb_checkpoints/
 .matplotlib/
 .env
+
+/.quarto/
+**/*.quarto_ipynb

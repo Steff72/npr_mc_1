@@ -188,6 +188,4 @@ jupyter notebook
 - The notebook is evaluation-heavy and expensive to rerun end to end.
 - OpenAI access is required for embeddings, answer generation, and LLM-as-judge scoring.
 - The reranker step downloads `BAAI/bge-reranker-base` on first use.
-- During the chunk-size-2000 experiment, two OpenAI API `400` messages were printed, but only one question failed at the outer evaluation-loop level. One inner judge error fell back to relevance score `0`, while one full question was skipped, leaving `99` valid evaluations.
-- The qualitative analysis also shows one inner retriever-judge `400` error; it was handled locally and the analysis continued.
 - Results are not fully deterministic because both generation and judging use LLMs.
